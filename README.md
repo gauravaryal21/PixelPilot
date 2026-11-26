@@ -22,6 +22,3 @@ The game introduces on-device AI, NPU-supported effects, and CPU/GPU/NPU roles t
 - Cloudflare Pages Functions endpoint at `functions/api/scores.js`
 - Cloudflare D1 leaderboard schema at `db/schema.sql`; the Pages binding name is `DB`
 
-## Publish
-
-Connect the repository to Cloudflare Pages with Git integration. Use the repository root as the build output directory and `exit 0` as the build command for this static site. Bind the D1 database as `DB` in the Pages project settings. Push changes to the production branch selected in Cloudflare Pages; each push to that branch triggers a production deployment.
