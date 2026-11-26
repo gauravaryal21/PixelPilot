@@ -1,0 +1,6 @@
+token.txt
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.wrangler/
